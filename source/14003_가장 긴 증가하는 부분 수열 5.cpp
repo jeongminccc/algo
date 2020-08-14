@@ -8,9 +8,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-int n, dp[1000001], c[1000001];
-int c_index[1000001];
-vector<vector<int>> lis_list;
+int n, dp[1000001], c[1000001], c_index[1000001];
 
 int main(){
     cin >> n;
@@ -19,13 +17,8 @@ int main(){
     int pos_c=1;
     c[0] = dp[0];
     c_index[0] = 1;
-    vector<int> a;
-    a.push_back(dp[0]);
-    lis_list.push_back(a);
     
     for(int i=1; i<n; i++){
-        vector<int> temp;
-        
         if(c[pos_c - 1] < dp[i]) {
             c[pos_c] = dp[i];
             pos_c++;
@@ -37,12 +30,15 @@ int main(){
         }
     }
     cout << pos_c << endl;
+    
     vector<int> ans;
     for(int i = n-1; i>=0; --i){
-        if(c_index[i] == pos_c) {ans.push_back(dp[i]);
-            pos_c--;}
+        if(c_index[i] == pos_c) {
+            ans.push_back(dp[i]);
+            pos_c--;
+        }
     }
-    
     for(int i = ans.size() - 1; i>=0; --i) cout << ans[i] << " ";
+    
     return 0;
 }

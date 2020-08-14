@@ -9,7 +9,6 @@
 
 using namespace std;
 int n, dp[1001], c[1001];
-vector<vector<int>> lis_list;
 
 int main(){
     cin >> n;
@@ -18,14 +17,12 @@ int main(){
     int lis = 0, ans=0, ans_i=0;
     for(int i=0; i<n; i++){
         lis = 0;
-        bool flag = false;
         vector<int> temp;
         for(int j=0; j<i; j++){
             if(dp[i] > dp[j]) {
                 if(lis < c[j]) {
                     lis = c[j];
                     temp = lis_list[j];
-                    flag = true;
                 }
             }
         }
@@ -38,6 +35,7 @@ int main(){
         temp.push_back(dp[i]);
         lis_list.push_back(temp);
     }
+    
     cout << ans << endl;
     for(int i=0; i<lis_list[ans_i].size(); i++) cout << lis_list[ans_i][i] << " ";
     
