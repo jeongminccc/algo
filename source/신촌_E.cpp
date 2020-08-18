@@ -16,7 +16,7 @@ char char_list[MAX];
 
 int main(){
     cin >> str;
-    bool minus_flag=false;
+    bool minus_flag = false;
     string temp_num = "";
     int pos_num = 0, pos_char = 0;
     for(int i=0; i<str.length(); i++){
@@ -27,17 +27,17 @@ int main(){
                 minus_flag = true;
                 continue;
             }
+            if(minus_flag) {num_list[pos_num] = -atoll(temp_num.c_str()); minus_flag = false;}
+            else num_list[pos_num] = atoll(temp_num.c_str());
             char_list[pos_char] = str[i];
-            if(minus_flag) {num_list[pos_num] = -atoi(temp_num.c_str()); minus_flag = false;}
-            else num_list[pos_num] = atoi(temp_num.c_str());
             temp_num = "";
             pos_char++;
             pos_num++;
         }
-    } num_list[pos_num] = atoi(temp_num.c_str()); pos_num++;
+    } num_list[pos_num] = atoll(temp_num.c_str()); pos_num++;
     
     int temp_posChar = pos_char;
-    int left_posNum=0, right_posNum = pos_num - 1, left_posChar = 0, right_posChar=pos_char - 1;
+    int left_posNum=0, right_posNum = pos_num - 1, left_posChar = 0, right_posChar = pos_char - 1;
     while(temp_posChar--){
         ll compare_left=0, compare_right=0;
         
@@ -129,7 +129,7 @@ int main(){
                 }else{
                     compare_right = num_list[right_posNum] + num_list[right_posNum-1];
                 }
-//                cout << compare_left << " " << compare_right << endl;
+                
                 if(compare_left >= compare_right){ // 왼쪽 연산부터
                     num_list[left_posNum+1] = compare_left;
                     left_posNum++;
