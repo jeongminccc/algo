@@ -1,9 +1,3 @@
-//
-//  신촌_E.cpp
-//  
-//
-//  Created by jm on 2020/08/15.
-//
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -34,7 +28,13 @@ int main(){
             pos_char++;
             pos_num++;
         }
-    } num_list[pos_num] = atoll(temp_num.c_str()); pos_num++;
+    }
+    if(minus_flag){
+        num_list[pos_num] = -atoll(temp_num.c_str());
+    }else{
+        num_list[pos_num] = atoll(temp_num.c_str());
+    }
+    pos_num++;
     
     int temp_posChar = pos_char;
     int left_posNum=0, right_posNum = pos_num - 1, left_posChar = 0, right_posChar = pos_char - 1;
