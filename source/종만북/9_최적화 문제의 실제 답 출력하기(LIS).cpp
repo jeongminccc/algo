@@ -23,7 +23,7 @@ int lis4(int start){
                 bestNext = next;
             }
         }
-    choices[start+1] = bestNezxt;
+    choices[start+1] = bestNext;
     return ret;
 }
 // S[start]에서 시작하는 LIS를 seq에 저장한다
