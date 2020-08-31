@@ -21,7 +21,7 @@ int main(){
     cin >> budget;
     
     int lo = 0;
-    hi++;
+    hi++; // 한쪽을 불만족 하도록 만들어줌
     while(lo + 1 < hi){
         int mid = (lo + hi)/2;
         

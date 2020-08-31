@@ -80,6 +80,11 @@
 		88A84CCF24F9F9F100CC4279 /* 2629_양팔저울.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "2629_양팔저울.cpp"; path = "source/DP/2629_양팔저울.cpp"; sourceTree = SOURCE_ROOT; };
 		88A84CD024FA019D00CC4279 /* 4781_사탕가게.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "4781_사탕가게.cpp"; path = "source/DP/4781_사탕가게.cpp"; sourceTree = SOURCE_ROOT; };
 		88A84CD124FA187000CC4279 /* 2662_기업투자.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "2662_기업투자.cpp"; path = "source/DP/2662_기업투자.cpp"; sourceTree = SOURCE_ROOT; };
+		88A84CD524FB860700CC4279 /* 1644_소수의 연속합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "1644_소수의 연속합.cpp"; path = "source/수학/1644_소수의 연속합.cpp"; sourceTree = SOURCE_ROOT; };
+		88A84CD624FB8A8D00CC4279 /* 1747_소수&팰린드롬.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "1747_소수&팰린드롬.cpp"; path = "source/수학/1747_소수&팰린드롬.cpp"; sourceTree = SOURCE_ROOT; };
+		88A84CD724FBAFBF00CC4279 /* 16500_문자열 판별.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "16500_문자열 판별.cpp"; path = "source/DP/16500_문자열 판별.cpp"; sourceTree = SOURCE_ROOT; };
+		88A84CD824FCE9C900CC4279 /* 2512_예산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "2512_예산.cpp"; path = "source/이분탐색/2512_예산.cpp"; sourceTree = SOURCE_ROOT; };
+		88A84CD924FCEE9700CC4279 /* 이분탐색 양쪽이 만족 혹은 불만족인경우.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "이분탐색 양쪽이 만족 혹은 불만족인경우.cpp"; path = "source/이분탐색/이분탐색 양쪽이 만족 혹은 불만족인경우.cpp"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				8828398B24BC86D2005EB94D /* main.cpp */,
+				88A84CD824FCE9C900CC4279 /* 2512_예산.cpp */,
+				88A84CD924FCEE9700CC4279 /* 이분탐색 양쪽이 만족 혹은 불만족인경우.cpp */,
+				88A84CD724FBAFBF00CC4279 /* 16500_문자열 판별.cpp */,
+				88A84CD624FB8A8D00CC4279 /* 1747_소수&팰린드롬.cpp */,
+				88A84CD524FB860700CC4279 /* 1644_소수의 연속합.cpp */,
 				88A84CD124FA187000CC4279 /* 2662_기업투자.cpp */,
 				88A84CD024FA019D00CC4279 /* 4781_사탕가게.cpp */,
 				88A84CCF24F9F9F100CC4279 /* 2629_양팔저울.cpp */,
