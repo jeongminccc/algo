@@ -85,6 +85,7 @@
 		88A84CD724FBAFBF00CC4279 /* 16500_문자열 판별.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "16500_문자열 판별.cpp"; path = "source/DP/16500_문자열 판별.cpp"; sourceTree = SOURCE_ROOT; };
 		88A84CD824FCE9C900CC4279 /* 2512_예산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "2512_예산.cpp"; path = "source/이분탐색/2512_예산.cpp"; sourceTree = SOURCE_ROOT; };
 		88A84CD924FCEE9700CC4279 /* 이분탐색 양쪽이 만족 혹은 불만족인경우.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "이분탐색 양쪽이 만족 혹은 불만족인경우.cpp"; path = "source/이분탐색/이분탐색 양쪽이 만족 혹은 불만족인경우.cpp"; sourceTree = SOURCE_ROOT; };
+		88A84CDA24FCF9C400CC4279 /* 2343_기타레슨.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "2343_기타레슨.cpp"; path = "source/이분탐색/2343_기타레슨.cpp"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				8828398B24BC86D2005EB94D /* main.cpp */,
+				88A84CDA24FCF9C400CC4279 /* 2343_기타레슨.cpp */,
 				88A84CD824FCE9C900CC4279 /* 2512_예산.cpp */,
 				88A84CD924FCEE9700CC4279 /* 이분탐색 양쪽이 만족 혹은 불만족인경우.cpp */,
 				88A84CD724FBAFBF00CC4279 /* 16500_문자열 판별.cpp */,
