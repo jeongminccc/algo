@@ -20,7 +20,7 @@ while(lo <= hi){
     else hi = mid - 1;
 }
 
-// 한쪽이 답이 될 수 없는 경우
+// 한쪽이 답이 될 수 없는 경우 -> 답으로 정하는 hi/lo의 반대쪽이 답이 될 수 없어야 함
 while(lo + 1 < hi){
     int mid = (lo + hi)/2;
     
