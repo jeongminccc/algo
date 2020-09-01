@@ -1,3 +1,3 @@
 # Algorithm 
 
-## provlem solving project
+## problem solving project
