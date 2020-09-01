@@ -6,6 +6,9 @@
 //  Copyright © 2020 jm. All rights reserved.
 //
 
+// 가장 중요한것은 lo부터 시작해서 조건을 만족하는 최댓값을 찾을 것인지
+//             hi부터 시작해서 조건을 만족하는 최솟값을 찾을 것인지 이다.
+
 // 먼저 양쪽(lo, hi) 모두 답이 될 수있는 경우
 while(lo <= hi){
     int mid = (lo + hi)/2;
