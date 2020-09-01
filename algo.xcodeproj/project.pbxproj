@@ -91,6 +91,7 @@
 		88A84CDF24FE132700CC4279 /* 10_그리디.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "10_그리디.md"; path = "source/종만북/10_그리디.md"; sourceTree = SOURCE_ROOT; };
 		88A84CE124FE13DE00CC4279 /* 10_회의실 예약.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "10_회의실 예약.md"; path = "source/종만북/10_회의실 예약.md"; sourceTree = SOURCE_ROOT; };
 		88A84CE224FE2A8F00CC4279 /* 10_출전 순서 정하기.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "10_출전 순서 정하기.md"; path = "source/종만북/10_출전 순서 정하기.md"; sourceTree = SOURCE_ROOT; };
+		88A84CE324FE4A4600CC4279 /* 10_도시락 데우기.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "10_도시락 데우기.md"; path = "source/종만북/10_도시락 데우기.md"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 				88A84CDF24FE132700CC4279 /* 10_그리디.md */,
 				88A84CE124FE13DE00CC4279 /* 10_회의실 예약.md */,
 				88A84CE224FE2A8F00CC4279 /* 10_출전 순서 정하기.md */,
+				88A84CE324FE4A4600CC4279 /* 10_도시락 데우기.md */,
 				88A84CDC24FD335C00CC4279 /* 1300_K번째 수.cpp */,
 				88A84CDB24FD20E200CC4279 /* 15732_도토리 숨기기.cpp */,
 				88A84CDA24FCF9C400CC4279 /* 2343_기타레슨.cpp */,
