@@ -102,6 +102,7 @@
 		88A84CED2500C1DB00CC4279 /* 16225_제271회 웰노운컵.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "16225_제271회 웰노운컵.cpp"; path = "source/Greedy/16225_제271회 웰노운컵.cpp"; sourceTree = "<group>"; };
 		88A84CEE2500D05400CC4279 /* pair lower_bound 사용.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "pair lower_bound 사용.cpp"; path = "Tech/pair lower_bound 사용.cpp"; sourceTree = "<group>"; };
 		88A84CEF2500D46600CC4279 /* vector 메모리 해제.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vector 메모리 해제.cpp"; path = "Tech/vector 메모리 해제.cpp"; sourceTree = "<group>"; };
+		88A84CF0250101F000CC4279 /* 11_조합 탐색.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "11_조합 탐색.md"; path = "source/종만북/11_조합 탐색.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				88A84CE524FE985E00CC4279 /* main.cpp */,
+				88A84CF0250101F000CC4279 /* 11_조합 탐색.md */,
 				88A84CEE2500D05400CC4279 /* pair lower_bound 사용.cpp */,
 				88A84CEF2500D46600CC4279 /* vector 메모리 해제.cpp */,
 				88A84CED2500C1DB00CC4279 /* 16225_제271회 웰노운컵.cpp */,
