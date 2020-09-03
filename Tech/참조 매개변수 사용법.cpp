@@ -29,7 +29,8 @@ void foo_Value(struct STRUCT_A a){
     return;
 }
 
-void foo_Reference(struct STRUCT_B& a){ // 참조로 구조체를 받음.
+void foo_Reference(struct STRUCT_B& a){ // 참조로 구조체를 받음. (주소값을 받아 직접 접근이 가능)
+                                        // 즉 참조자 a를 선언 하는것임. 값에의한 호출은 값만 복사해서 새로운 변수를 만드는건데
     a.m_b = 2; // 평소 구조체 쓰듯이 쓰면 됨.
     return;
 }

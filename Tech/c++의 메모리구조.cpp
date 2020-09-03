@@ -41,8 +41,12 @@ int main(){
     
     POINT b;
     cout << "스택 영역에 2번째로 할당된 구조체 : " << &b << endl;
-    int c;
+    int c=10;
     cout << "스택 영역에 3번째로 할당된 변수 : " << &c << endl;
+    
+    int &d = c;
+    cout << "참조자로 선언한 변수 : " << &d << endl;
+    // 메모리를 먹지 않는다.
     
     return 0;
 }
