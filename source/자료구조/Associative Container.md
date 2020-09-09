@@ -1,5 +1,5 @@
 # Associative Container
-- 연관 컨테이너와 다르게, key - value 구조를 가진다.
+-  시퀀스 컨테이너와 다르게, key - value 구조를 가진다.
 
 우리는 보통 key - value 구조를 가지고 두가지의 질문을 할 수 있다.
 1. key가 연관 컨테이너에 존재 하는가? -> True or False
