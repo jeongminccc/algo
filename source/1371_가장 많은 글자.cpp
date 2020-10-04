@@ -16,18 +16,17 @@ int main(){
         string s;
         cin >> s;
         if(cin.eof()) break;
-        if(s == "#") break;
         
-        for(char& c:s) alpa[c - 97]++;
+        for(char& c:s) alpa[c - 'a']++;
     }
     int ret=0;
     vector<char> ans;
     for(int i=0; i<26; ++i){
         if(ret < alpa[i]){
-            ans = {(char)(i+97)};
+            ans = {(i + 'a')};
             ret = alpa[i];
         }else if(ret == alpa[i])
-            ans.push_back(i+97);
+            ans.push_back(i + 'a');
     }
     
     for(char&c:ans) cout << c;
