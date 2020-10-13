@@ -9,8 +9,7 @@
 
 using namespace std;
 
-int blue=0, white=0;
-vector<vector<int>> a;
+int arr[150][150], blue=0, white=0;
 
 void foo(int x, int y, int size){
     
@@ -31,13 +30,14 @@ void foo(int x, int y, int size){
     return;
 }
 
-vector<int> solution(vector<vector<int>> arr) {
-    a = arr;
-    vector<int> answer;
+int main(){
+    int n;
+    cin >> n;
+    for(int i=0; i<n; ++i)
+        for(int j=0; j<n; ++j)
+            cin >> arr[i][j];
     
-    foo(0,0,arr.size());
-    answer.push_back(blue);
-    answer.push_back(white);
-    
-    return answer;
+    foo(0,0,n);
+    cout << white << " " << blue;
 }
+
