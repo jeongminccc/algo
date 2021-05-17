@@ -80,3 +80,5 @@ int solution(int n, int start, int end, vector<vector<int>> roads, vector<int> t
     
     return answer;
 }
+
+// 노드들이 있고 Trap을 지나면 방향이 반대가 됨

@@ -66,3 +66,5 @@ vector<int> solution(vector<vector<string>> places) {
 
     return answer;
 }
+
+// 거리두기 좌석 체크

@@ -55,3 +55,5 @@ string solution(int n, int k, vector<string> cmd) {
     }
     return answer;
 }
+
+// 테이블 주고 위아래로 왔다갔다하며 삭제

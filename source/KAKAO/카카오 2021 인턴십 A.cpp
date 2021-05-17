@@ -37,3 +37,5 @@ int solution(string s) {
     answer = stoi(str_answer);
     return answer;
 }
+
+// 0one2two 와 같은 str을 숫자로 바꿔라
